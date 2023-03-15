@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ex2{
+    margin: 39px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.trns{
+    background-color: blue;
+    width: 100px; height: 100px;
+    transition: width 2s;
+}
+.trns:hover{
+    width: 200px;
+}

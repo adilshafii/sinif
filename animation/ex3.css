@@ -1,0 +1,21 @@
+.trns{
+    background-color: blue;
+    width: 100px; height: 100px;
+    transition: 2s;
+}
+
+
+.trns2{
+    background-color: aqua;
+    width: 100px; height: 100px;
+    transition: 2s;
+    margin-top: 7px;
+    transition-delay: 1s ;
+}
+
+#main:hover .trns{
+    width: 300px;
+}
+#main:hover .trns2{
+    width: 300px;
+}
