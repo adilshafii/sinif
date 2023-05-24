@@ -1,0 +1,31 @@
+{
+  "Bazar": [
+    {
+      "id": 1,
+      "name": "Kartof",
+      "surname": "kartoshka",
+      "price": {
+        "1kq": "3AZN",
+        "2kq": "6AZN"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Kelem",
+      "surname": "Gul",
+      "price": {
+        "1kq": "2AZN",
+        "2kq": "4AZN"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Shuyud",
+      "surname": "Goyerti",
+      "price": {
+        "1kq": "1AZN",
+        "2kq": "2AZN"
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .maindiv {
+    background-color: #f8f9fb;
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+    .maindiv_child1 {
+      width: 55%;
+      background-color: #f8f9fb;
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      .creat_get {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+        margin-top: 17px;
+        h1 {
+          text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+      }
+      .logins {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        // position: relative;
+        .twitter {
+          padding: 7px;
+          // border: 1px solid red;
+          background-color: #41afec;
+          // text-align: center;
+          color: white;
+          border-radius: 3px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            padding-left: 11px;
+          }
+        }
+        .facebook {
+          padding: 8px;
+          background-color: #405e9e;
+          text-align: center;
+          color: white;
+          border-radius: 3px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p {
+            padding-left: 11px;
+          }
+        }
+        .fa-twitter {
+          // position: absolute;
+          color: white;
+          // top: 9px;
+          // left: 75px;
+        }
+        .fa-facebook-f {
+          // position: absolute;
+          color: white;
+          // top: 49px;
+          // left: 69px;
+        }
+      }
+      .or {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          font-size: 13px;
+          padding-left: 7px;
+          padding-right: 7px;
+        }
+        .xett1 {
+          width: 141px;
+          border-bottom: 1px solid gray;
+        }
+        .xett2 {
+          width: 141px;
+          border-bottom: 1px solid gray;
+        }
+      }
+    }
+    // START FORMM
+    .maindiv_child2 {
+      width: 55%;
+      background-color: #f8f9fb;
+      form {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        i {
+          // width: 40px;
+          // height: 40px;
+          padding: 8.8px;
+          background-color: #ebecf1;
+          position: absolute;
+          border: 1px solid gray;
+          border-radius: 3px 0px 0px 3px;
+          color: #4a4f57;
+        }
+        input {
+          width: 90.5%;
+          height: 35px;
+          padding-left: 11px;
+          margin-left: 30px;
+          padding-right: 17px;
+          border: 1px solid gray;
+          border-radius: 0px 3px 3px 0px;
+        }
+        .fa-envelope {
+          padding: 8.5px;
+        }
+        .fa-building {
+          padding: 8.6px;
+        }
+        .tekrarkod {
+          padding: 8.5px;
+        }
+        .fa-phone-flip {
+          padding: 8.5px;
+        }
+        #job {
+          width: 90.5%;
+          height: 35px;
+          padding-left: 11px;
+          margin-left: 30px;
+          padding-right: 17px;
+          border: 1px solid gray;
+          border-radius: 0px 3px 3px 0px;
+        }
+        #phonekod {
+          width: 39%;
+          height: 35px;
+          padding-left: 11px;
+          margin-left: 30px;
+          padding-right: 17px;
+          border: 1px solid gray;
+          // border-radius: 0px 3px 3px 0px;
+        }
+      }
+      .phone{
+        display: flex;
+        gap: 0;
+        position: relative;
+      .telnumber{
+        position: absolute;
+        width: 51.7%;
+        padding-left: 20px;
+        left: 121px;
+
+      }
+    }
+      
+      .create_account {
+        padding: 8px;
+        background-color: #107bff;
+        text-align: center;
+        color: white;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+      }
+      .end {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 13px;
+        padding-bottom: 13px;
+        .end_1 {
+          font-size: 13px;
+        }
+        .end_2 {
+          font-size: 13px;
+          color: #107bff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section .maindiv {
+  background-color: #f8f9fb;
+  width: 47%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 13px;
+}
+section .maindiv .maindiv_child1 {
+  width: 55%;
+  background-color: #f8f9fb;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+section .maindiv .maindiv_child1 .creat_get {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 17px;
+}
+section .maindiv .maindiv_child1 .creat_get h1 {
+  text-align: center;
+}
+section .maindiv .maindiv_child1 .creat_get p {
+  text-align: center;
+}
+section .maindiv .maindiv_child1 .logins {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+section .maindiv .maindiv_child1 .logins .twitter {
+  padding: 7px;
+  background-color: #41afec;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .maindiv .maindiv_child1 .logins .twitter p {
+  padding-left: 11px;
+}
+section .maindiv .maindiv_child1 .logins .facebook {
+  padding: 8px;
+  background-color: #405e9e;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .maindiv .maindiv_child1 .logins .facebook p {
+  padding-left: 11px;
+}
+section .maindiv .maindiv_child1 .logins .fa-twitter {
+  color: white;
+}
+section .maindiv .maindiv_child1 .logins .fa-facebook-f {
+  color: white;
+}
+section .maindiv .maindiv_child1 .or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .maindiv .maindiv_child1 .or p {
+  font-size: 13px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+section .maindiv .maindiv_child1 .or .xett1 {
+  width: 141px;
+  border-bottom: 1px solid gray;
+}
+section .maindiv .maindiv_child1 .or .xett2 {
+  width: 141px;
+  border-bottom: 1px solid gray;
+}
+section .maindiv .maindiv_child2 {
+  width: 55%;
+  background-color: #f8f9fb;
+}
+section .maindiv .maindiv_child2 form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+section .maindiv .maindiv_child2 form i {
+  padding: 8.8px;
+  background-color: #ebecf1;
+  position: absolute;
+  border: 1px solid gray;
+  border-radius: 3px 0px 0px 3px;
+  color: #4a4f57;
+}
+section .maindiv .maindiv_child2 form input {
+  width: 90.5%;
+  height: 35px;
+  padding-left: 11px;
+  margin-left: 30px;
+  padding-right: 17px;
+  border: 1px solid gray;
+  border-radius: 0px 3px 3px 0px;
+}
+section .maindiv .maindiv_child2 form .fa-envelope {
+  padding: 8.5px;
+}
+section .maindiv .maindiv_child2 form .fa-building {
+  padding: 8.6px;
+}
+section .maindiv .maindiv_child2 form .tekrarkod {
+  padding: 8.5px;
+}
+section .maindiv .maindiv_child2 form .fa-phone-flip {
+  padding: 8.5px;
+}
+section .maindiv .maindiv_child2 form #job {
+  width: 90.5%;
+  height: 35px;
+  padding-left: 11px;
+  margin-left: 30px;
+  padding-right: 17px;
+  border: 1px solid gray;
+  border-radius: 0px 3px 3px 0px;
+}
+section .maindiv .maindiv_child2 form #phonekod {
+  width: 39%;
+  height: 35px;
+  padding-left: 11px;
+  margin-left: 30px;
+  padding-right: 17px;
+  border: 1px solid gray;
+}
+section .maindiv .maindiv_child2 .phone {
+  display: flex;
+  gap: 0;
+  position: relative;
+}
+section .maindiv .maindiv_child2 .phone .telnumber {
+  position: absolute;
+  width: 51.7%;
+  padding-left: 20px;
+  left: 121px;
+}
+section .maindiv .maindiv_child2 .create_account {
+  padding: 8px;
+  background-color: #107bff;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+section .maindiv .maindiv_child2 .end {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 13px;
+  padding-bottom: 13px;
+}
+section .maindiv .maindiv_child2 .end .end_1 {
+  font-size: 13px;
+}
+section .maindiv .maindiv_child2 .end .end_2 {
+  font-size: 13px;
+  color: #107bff;
+}/*# sourceMappingURL=main.css.map */

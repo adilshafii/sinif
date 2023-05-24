@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: aqua;
+  height: 21vh;
+}
+
+main #sec_1 {
+  background-color: rgb(111, 232, 123);
+  height: 30vh;
+}
+main #need {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  justify-content: center;
+  align-items: center;
+}
+main #need h3 {
+  color: #ffffff;
+  font-size: 33px;
+}
+main #need .need_line {
+  width: 55px;
+  height: 3px;
+  background-color: #ffffff;
+}
+main #need p {
+  color: rgb(215, 192, 192);
+}
+main #need button {
+  width: 150px;
+  height: 49px;
+  border-radius: 23px;
+  background-color: #ffffff;
+  border: none;
+  color: red;
+}
+main #sec_3 {
+  background-color: blue;
+  height: 30vh;
+}
+
+main #sec_5 {
+  background-color: rgb(102, 36, 244);
+  height: 30vh;
+}
+main #sec_4 {
+  background-color: rgb(238, 255, 0);
+  height: 30vh;
+}
+
+footer {
+  background-color: rgb(255, 0, 212);
+  height: 21vh;
+}/*# sourceMappingURL=main.css.map */

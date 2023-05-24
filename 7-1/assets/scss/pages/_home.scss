@@ -1,0 +1,46 @@
+main {
+  #sec_1 {
+    background-color: rgb(111, 232, 123);
+    height: 30vh;
+  }
+
+  // START NEED SECTION
+  #need {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      color: #ffffff;
+      font-size: 33px;
+    }
+    .need_line {
+      width: 55px;
+      height: 3px;
+      background-color: #ffffff;
+    }
+    p {
+      color: rgb(215, 192, 192);
+    }
+    button {
+      width: 150px;
+      height: 49px;
+      border-radius: 23px;
+      background-color: #ffffff;
+      border: none;
+      color: red;
+    }
+  }
+
+  // start sec3
+  #sec_3 {
+    background-color: blue;
+    height: 30vh;
+  }
+}
+
+// START FOOTER
+
+

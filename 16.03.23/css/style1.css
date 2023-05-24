@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: grid;
+    
+}
+.box1{
+    border: 3px solid red;
+    text-align: center;
+
+}
+.box2{
+    border: 3px solid red;
+    text-align: center;
+}
+.box3{
+    border: 3px solid red;
+    text-align: center;
+}

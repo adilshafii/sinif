@@ -1,0 +1,56 @@
+nav{
+    z-index: 10;
+    width: 100vw;
+    height: 67px;
+    background-color: rgba(16, 16, 16);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    // opacity: 0.9;
+    position: fixed;
+    
+    div{
+        h1{
+            font-size: large;
+            color: white;
+            
+        }
+    }
+    ul{
+        display: flex;
+        gap: 21px;
+        li{
+            font-size: small;
+            list-style: none;
+            a{
+                &, &:link, &:visited, &:active{
+                    
+                    color: rgb(174, 174, 174);
+                    text-decoration: none;
+                }
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+    button{
+        
+            display: none;
+        
+    }
+}
+@media (max-width: 576px){
+    nav{
+        button{
+            display: block;
+        }
+        ul{
+            display: none;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,13 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+button{
+    width: 200px;
+    height: 100px;
+    font-size: 27px;
+    background-color: chartreuse;
+    cursor: pointer;
+}

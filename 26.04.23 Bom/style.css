@@ -1,0 +1,30 @@
+section{
+    padding-top: 70px;
+}
+.scormain{
+    display: flex;
+    justify-content: space-around;
+}
+.scor{
+    border: 3px solid red;
+    padding: 17px;
+}
+.player1{
+    border: 2px solid green;
+    padding: 10px;
+}
+.computer{
+    border: 2px solid green;
+    padding: 10px;
+}
+.images{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.kagiz{
+    border: 3px solid blue;
+}
+.qayci{
+    border: 3px solid blue;
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+nav {
+  background-color: rgb(96, 8, 8);
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.start{
+    color: gold;
+}
+.btn {
+  padding: 17px;
+}
+.nav2 {
+  background-color: brown;
+  height: 120px;
+  transition: 1s;
+  overflow: hidden;
+}
+.olcu {
+  height: 0;
+}
+li{
+    color: white;
+    padding: 5px;
+}

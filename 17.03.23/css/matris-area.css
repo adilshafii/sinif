@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: grid;
+    grid-template-areas: 
+    "A A A"
+    "B B E"
+    "C D E";
+    gap: 20px;
+    width: 50%;
+    height: 500px;
+    margin: 40px auto;
+
+}
+
+.qutu{
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+}
+.box1{
+    grid-area: A;
+}
+.box2{
+    grid-area: B;
+}
+.box3{
+    grid-area: C;
+}
+.box4{
+    grid-area: D;
+}
+.box5{
+    grid-area: E;
+}
